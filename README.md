@@ -2,6 +2,8 @@
 
 A terminal-based user interface application built with [Textual](https://github.com/Textualize/textual), demonstrating a menu system, log data visualization, and various UI components.
 
+Article & Video coming soon...
+
 ## Features
 
 - Interactive menu navigation with keyboard controls
