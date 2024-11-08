@@ -5,6 +5,7 @@ from textual.screen import Screen
 
 from textual_tutorial.components.menu import MenuWidget, MENU_OPTIONS
 from textual_tutorial.screens.log_screen import LogScreen
+from textual_tutorial.screens.showcase_screen import ShowcaseScreen
 
 
 class MainScreen(Screen):
@@ -23,11 +24,9 @@ class MainScreen(Screen):
         if selected_option.action == "exit":
             self.app.exit()
         elif selected_option.action == "open_logs":
-            # Push the LogScreen onto the stack
             self.app.push_screen(LogScreen())
-        elif selected_option.action == "show_notification":
-            # Show a notification
-            self.notify("This is a test notification!")
+        elif selected_option.action == "component_showcase":
+            self.app.push_screen(ShowcaseScreen())
 
 
 class MenuApp(App[None]):

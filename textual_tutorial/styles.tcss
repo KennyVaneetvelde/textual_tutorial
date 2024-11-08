@@ -53,3 +53,50 @@ DataTable {
     height: 100%;
     margin: 1;
 }
+
+/* Showcase screen styles */
+#showcase-container {
+    padding: 1 2;
+    height: 1fr;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.section-title {
+    text-style: bold;
+    background: $accent;
+    color: $text;
+    padding: 1 2;
+    margin: 1 0;
+    text-align: center;
+}
+
+.widget-row {
+    height: auto;
+    align: center middle;
+    margin: 1 0;
+    padding: 1;
+}
+
+Button {
+    margin: 1 2;
+}
+
+Input {
+    width: 30;
+}
+
+ProgressBar {
+    width: 75%;
+    margin: 1 0;
+}
+
+Label {
+    text-align: center;
+}
+
+Vertical {
+    height: auto;
+    width: auto;
+    margin: 1 2;
+}

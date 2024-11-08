@@ -19,8 +19,8 @@ class MenuOption:
 
 # Define menu options as a list of MenuOption instances
 MENU_OPTIONS: List[MenuOption] = [
+    MenuOption("Component Showcase", "component_showcase"),
     MenuOption("Open Logs", "open_logs"),
-    MenuOption("Show Notification", "show_notification"),
     MenuOption("Quit", "exit"),
 ]
 
