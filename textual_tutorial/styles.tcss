@@ -1,0 +1,55 @@
+#menu-container {
+    width: 100%;
+    height: 100%;
+    align: center middle;
+}
+
+MenuWidget {
+    width: auto;
+    height: auto;
+    border: solid $primary;
+    padding: 1 2;
+}
+
+#log-screen-container {
+    width: 100%;
+    height: 100%;
+    align: center middle;
+    padding: 1;
+}
+
+#welcome {
+    content-align: center middle;
+    width: 100%;
+    height: auto;
+    text-style: bold;
+    padding: 1;
+}
+
+#description {
+    content-align: center middle;
+    width: 100%;
+    height: auto;
+    padding: 1;
+}
+
+#demo-button {
+    margin-top: 1;
+}
+
+/* Log Screen Styles */
+#log-table {
+    width: 100%;
+    height: 100%;
+}
+
+Screen > Container {
+    height: 100%;
+    padding: 1;
+}
+
+DataTable {
+    border: solid $primary;
+    height: 100%;
+    margin: 1;
+}
